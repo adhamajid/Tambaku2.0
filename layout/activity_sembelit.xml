@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sembelit">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="340sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="Sembelit"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_materi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:text="Pengertian"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line1desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\tSembelit adalah kesulitan dan atau jarang buang air besar, dikatakan kurang dari 3 kali dalam
+seminggu. Sembelit paling sering terjadi ketika tinja bergerak terlalu lambat melalui saluran
+pencernaan atau tidak dapat dihilangkan secara efektif dari rektum, yang dapat menyebabkan
+tinja menjadi keras dan kering. Sembelit dapat dianggap kronis jika gejala-gejalanya dialami
+selama dua atau lebih dalam tiga bulan terakhir."
+                android:textColor="@color/black"
+                android:layout_below="@+id/line1"
+                android:padding="20sp"/>
+
+            <TextView
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line1desc"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:background="@drawable/retangle_pilihan"
+                android:text="Jangka Waktu Swamedikasi"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line2desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line2"
+                android:padding="20sp"
+                android:text="Sebaiknya jika dalam kurun waktu 3 - 7 hari, keluhan yang dirasakan tidak
+berkurang, segeralah periksa ke dokter supaya terhindar dari hal-hal yang tidak diinginkan. (Penyakit ringan hingga sembuh, sesuai dengan aturan penggunaan
+obat)."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:background="@drawable/retangle_pilihan"
+                android:text="Langkah-langkah Swamedikasi"
+                android:textSize="16sp"
+                android:layout_below="@+id/line2desc"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line3desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a. Kenali gejala yang dirasakan
+misalnya bila batuk maka pastikan apakah batuk tersebut batuk berdahak
+atau batuk kering, karena obat yang dibutuhkan untuk kedua jenis batuk
+tersebut berbeda. baca informasi “Indikasi” pada brosur atau kemasan obat."
+                android:textColor="@color/black"
+                android:layout_below="@+id/line3"
+                android:padding="20sp"/>
+
+            <TextView
+                android:id="@+id/line3desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="b. Kenali kondisi tubuh. misalnya kondisi hamil dan menyusui, adanya penyakit kronis seperti hipertensi, gangguan jantung, gangguan fungsi hati, gangguan
+fungsi ginjal, atau alergi obat tertentu. Kondisi ini menentukan boleh tidaknya
+suatu obat digunakan pada pasien tertentu (baca informasi
+“Perhatian/”Peringatan (kondisi obat tidak dapat dipakai atau diwaspadai)”
+dan “Kontraindikasi (alasan obat tidak bisa digunakan, misal kondisi sedang
+hamil, alergi, atau yang lainnya)” pada brosur atau kemasan obat).
+            \n\nc. Minta rekomendasi profesional kesehatan, jika berkaitan dengan obat ke
+apoteker, jika berkaitan dengan penyakit ke dokter.
+
+            \n\nd. Mempertimbangkan riwayat pengobatan pasien, contoh pengobatan
+hipertensi atau kolesterol, diabetes.
+
+            \n\ne. Penyakit yang menyertai (penyakit yang sudah dimiliki) dan penyakit
+kambuhan (asam urat, asma).
+
+            \n\nf. Memonitor khasiat dari pengobatan dan kemungkinan terjadinya efek
+samping obat, seperti CTM yang diminum ketika mengalami batuk pilek dapat
+menyebabkan rasa kantuk, maka jangan bepergian ketika mengkonsumsi
+obat tersebut."
+                android:textColor="@color/black"
+                android:layout_marginLeft="5sp"
+                android:layout_below="@+id/line3desc"
+                android:padding="20sp"/>
+
+            <TextView
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:background="@drawable/retangle_pilihan"
+                android:text="Dampak Swamedikasi"
+                android:textSize="16sp"
+                android:layout_below="@+id/line3desc1"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line4desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line4"
+                android:padding="20sp"
+                android:text="\t Dampak Positif:
+                \n\na. Membantu pemerintah dalam pemeliharaan kesehatan secara Nasional
+                \n\nb. Membutuhkan sedikit dana
+                \n\nc. Memberikan pertolongan awal pada diri ketika terkena penyakit ringan
+
+                \n\n\n\t Dampak Negatif:
+                \n\na. tidak semua penyakit dapat dilakukan swamedikasi
+                \n\nb. Meningkatkan resiko interaksi dan reaksi yang merugikan
+                \n\nc. Potensi adanya kesalahan dalam penggunaan obat"
+                android:textColor="@color/black" />
+
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

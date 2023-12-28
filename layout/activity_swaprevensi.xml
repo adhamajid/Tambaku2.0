@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IUmum.Swaprevensi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="340sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="Swarevensi"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_materi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:text="Pengertian"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line1desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\t\tSwaprevensi adalah suatu upaya yang dilakukan oleh masyarakat untuk mencega terjadinya suatu penyakit (tanpa obat dan dengan obat). Sebagaimana kata pepatah.”Mencegah lebih baik daripada mengobati”. Swaprevensi ini dapat berupa olahraga ataupun mengkonsumsi rempah-rempah yang bisa meningkatkan imun/
+mempertahankan stamina tubuh kita, sehingga tubuh dapat bekerja dengan maksimal."
+                android:textColor="@color/black"
+                android:layout_below="@+id/line1"
+                android:padding="20sp"/>
+
+            <TextView
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line1desc"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:background="@drawable/retangle_pilihan"
+                android:text="Dampak Swaaprevensi"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line2desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line2"
+                android:padding="20sp"
+                android:text="\t Dampak Positif:
+                \n\na. Memanfaatkan Sumber Daya Alam yang ada
+                \n\nb. Tidak membutuhkan dana yang banyak
+
+                \n\n\n\t Dampak Negatif:
+                \n\na. Dapat terjadi kesalahan peracikan obat bila tidak biasa
+                \n\nb. Membutuhkan waktu dan keahliaan untuk mengolah"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:background="@drawable/retangle_pilihan"
+                android:text="Jangka Waktu Swamedikasi"
+                android:textSize="16sp"
+                android:layout_below="@+id/line2desc"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line3desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simplicia is part of a growing community that can be used for either part of a plant or intact. Simplicia is divided into two, that are :"
+                android:textColor="@color/black"
+                android:layout_below="@+id/line3"
+                android:padding="20sp"/>
+
+            <TextView
+                android:id="@+id/line3desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a. Fresh simplicia
+            \nFresh simplicia is part of the growth of fresh vegetation that is still in its original form.
+            \n\nb. Dry simplicia
+            \nDry simplicia is the dried vegetation (ovens, dried dried, or otherwise) before being further prepared. It should be noted that if a crop is to dry, temperatures should not exceed 60 oC"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5sp"
+                android:layout_below="@+id/line3desc"
+                android:padding="20sp"/>
+
+            <TextView
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:background="@drawable/retangle_pilihan"
+                android:text="Manfaat Swamedikasi"
+                android:textSize="16sp"
+                android:layout_below="@+id/line3desc1"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line4desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line4"
+                android:padding="20sp"
+                android:text="a. This brew is applied directly to a glass and hot water is available locally
+                \n\nb. Boiling is a warm-up process. In the boiling process there is something that should be considered that should not be done for a long time. And if you want to use the boiling technique, then don't take too long."
+                android:textColor="@color/black" />
+
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

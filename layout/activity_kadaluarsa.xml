@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IUmum.Kadaluarsa">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="340sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="Kadaluarsa"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_materi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:text="Pengertian"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line1desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal kadaluarsa menunjukkan bahwa sampai dengan tanggal yang dimaksud,
+mutu dan keamanan obat masih terjamin. Namun setelah itu keamanan obat sudah
+tidak terjamin dan dapat menimbulkan hal- hal yang tidak diinginkan jika tetap
+dikonsumsi. Ciri- ciri obat yang sudah berkurang mutu nya seperti :
+
+
+                \n\na. Tablet:
+                \n\t\t - Terjadinya perubahan warna, bau, atau rasa
+                \n\t\t - Kerusakan berupa noda, berbintik-bintik, lubang,\n\t\t sumbing, pecah, retak dan atau terdapat benda asing,\n\t\t jadi bubuk dan lembab.
+
+                \n\nb. Tablet Salut:
+                \n\t\t - Pecah-pecah, terjadi perubahan warna
+                \n\t\t - Basah dan lengket satu dengan lainnya
+                \n\t\t - wadah rusak
+
+                \n\nc. Kapsul:
+                \n\t\t - Perubahan Warna isi kapsul
+                \n\t\t - Kapsul terbuka/kosong/rusak/ melekat satu sama lain
+
+                \n\nd. Cairan:
+                \n\t\t - Menjadi keruh dan timbul endapan
+                \n\t\t - Konsistensi berubah
+                \n\t\t - Warna atau rasa berubah
+                \n\t\t - Botol rusak atau bocor
+
+                \n\ne. Salep:
+                \n\t\t - Warnaberubah
+                \n\t\t - Pot/tube rusak dan bocor
+                \n\t\t - Bau berubah"
+                android:textColor="@color/black"
+                android:layout_below="@+id/line1"
+                android:padding="20sp"/>
+
+
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

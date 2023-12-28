@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IUmum.Pemilihan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="340sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="Pemilihan Obat"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_materi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:text="Cara Pemilihan Obat"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line1desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dalam memilih obat perhatikan hal-hal berikut ini!
+
+                \n\ta. Gejala atau keluahan Penyakit
+                \n\tb. Kondisi khusus seperti ssedang hamil, menyusui, lanjut usia, diabetes melitus, dll
+                \n\tc. Riwayat Alergi
+                \n\td. Baca informasi penting di kemasan obat
+                \n\te. Pilih obat yang sesuai dengan gejala penyakit dan tidak ada interaksi obat dengan obat yang sedang diminum, dan konsultasikan kepada apoteker
+"
+                android:textColor="@color/black"
+                android:layout_below="@+id/line1"
+                android:padding="20sp"/>
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

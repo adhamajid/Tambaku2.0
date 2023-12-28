@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IUmum.Penggolongan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="340sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="Penggolongan Obat"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_materi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:text="Pengertian"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line1desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adanya penggolongan obat dimaksudkan untuk peningkatan keamanan, ketepatan
+penggunaan serta pengamanan distribusinya. Penggolongan obat menurut
+Permenkes No. 9 Tahun 2021
+
+\n\n1. Obat Bebas
+            \nObat bebas adalah obat yang dijual bebas di pasaran dan dapat dibeli tanpa
+resep dokter. Tanda khusus pada kemasan dan etiket obat bebas adalah
+lingkaran hijau dengan garis tepi berwarna hitam. Contoh : Parasetamol
+
+\n\n2. Obat Bebas Terbatas
+            \nObat bebas terbatas adalah obat yang sebenarnya termasuk obat keras
+tetapi masih dapat dijual atau dibeli bebas tanpa resep dokter, dan disertai
+dengan tanda peringatan. Tanda khusus pada kemasan dan etiket obat
+bebas terbatas adalah lingkaran biru dengan garis tepi berwarna hitam. Contoh : CTM
+
+\n\n3. Obat Keras dan Psikotropika
+            \nObat keras adalah obat yang hanya dapat dibeli di apotek dengan resep
+dokter. Tanda khusus pada kemasan dan etiket adalah huruf K dalam
+lingkaran merah dengan garis tepi berwarna hitam. Contoh : Asam
+Mefenamat Obat psikotropika adalah obat keras baik alamiah maupun sintetis bukan
+narkotik, yang berkhasiat psikoaktif melalui pengaruh selektif pada susunan
+saraf pusat yang menyebabkan perubahan khas pada aktivitas mental dan
+perilaku.
+
+\nContoh : Diazepam, Phenobarbital
+
+\n\n4. Obat Narkotika
+            \nObat narkotika adalah obat yang berasal dari tanaman atau bukan tanaman
+baik sintetis maupun semi sintetis yang dapat menyebabkan penurunan atau
+perubahan kesadaran, hilangnya rasa, mengurangi sampai menghilangkan
+rasa nyeri dan menimbulkan ketergantungan. Contoh : Morfin, Petidin
+
+"
+                android:textColor="@color/black"
+                android:layout_below="@+id/line1"
+                android:padding="20sp"/>
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

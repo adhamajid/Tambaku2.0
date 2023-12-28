@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IUmum.Obat">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/include"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:id="@+id/teksscale"
+            android:layout_width="340sp"
+            android:layout_height="39sp"
+            android:layout_below="@+id/include"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="Obat"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_materi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:text="Pengertian"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line1desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obat adalah suatu zat yang digunakan untuk menyembuhkan suatu penyakit.Obat dapat berupa obat sintetik/kimia ataupun obat herbal"
+                android:textColor="@color/black"
+                android:layout_below="@+id/line1"
+                android:padding="20sp"/>
+
+            <TextView
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line1desc"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:background="@drawable/retangle_pilihan"
+                android:text="Tanda Peringatan"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gambarline2"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/line2"
+                android:layout_centerInParent="true"
+                android:src="@drawable/tanda" />
+
+            <!--<TextView
+                android:id="@+id/line2desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line2"
+                android:padding="20sp"
+                android:text="The immune system is the condition by which the body can defend itself from an attack by an alien entering the body and resulting in an annoyance of the body's system."
+                android:textColor="@color/black" />-->
+
+            <TextView
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:background="@drawable/retangle_pilihan"
+                android:text="Efek Samping"
+                android:textSize="16sp"
+                android:layout_below="@+id/gambarline2"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/line3desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Efek samping adalah suatu dampak negatif yang akan muncul
+jika mengonsumsi obat tertentu. Contohnya gatal- gatal, mual."
+                android:textColor="@color/black"
+                android:layout_below="@+id/line3"
+                android:padding="20sp"/>
+
+
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>
